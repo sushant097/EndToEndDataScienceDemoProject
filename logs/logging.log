@@ -1,1 +1,44 @@
-[2025-01-21 18:15:45,840: INFO: main: Welcome to our custom logging data science]
+[2025-01-25 20:32:26,730: INFO: main: >>>>>> stage DATA INGESTION STAGE started <<<<<<]
+[2025-01-25 20:32:26,730: ERROR: main: ConfigurationManager.get_data_ingestion_config() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "/Users/sg2223/Drive E/LearningML/Mlops/Kris-Mlops_course/18-First-End-To-End-DS-Project/main.py", line 10, in <module>
+    obj.initiate_data_ingestion()
+  File "/Users/sg2223/Drive E/LearningML/Mlops/Kris-Mlops_course/18-First-End-To-End-DS-Project/src/datascienceDemo/pipeline/data_ingestion_pipeline.py", line 16, in initiate_data_ingestion
+    data_ingestion_config = config.get_data_ingestion_config()
+TypeError: ConfigurationManager.get_data_ingestion_config() missing 1 required positional argument: 'self'
+[2025-01-25 20:33:56,578: INFO: main: >>>>>> stage DATA INGESTION STAGE started <<<<<<]
+[2025-01-25 20:33:56,579: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-01-25 20:33:56,579: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-25 20:33:56,580: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-25 20:33:56,580: INFO: common: Created directory at: artifacts]
+[2025-01-25 20:33:56,580: INFO: common: Created directory at: artifacts/data_ingestion]
+[2025-01-25 20:33:57,622: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+ Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2CD8:34AFCD:A9F992:C0C7FC:67959F14
+Accept-Ranges: bytes
+Date: Sun, 26 Jan 2025 02:33:57 GMT
+Via: 1.1 varnish
+X-Served-By: cache-dfw-kdfw8210123-DFW
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1737858837.231342,VS0,VE364
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: bd53baccec2b6c8a729b092319ec52e75ba75b82
+Expires: Sun, 26 Jan 2025 02:38:57 GMT
+Source-Age: 0
+
+]
+[2025-01-25 20:33:57,625: INFO: main: >>>>>> stage DATA INGESTION STAGE completed <<<<<<
+
+x==========x]
